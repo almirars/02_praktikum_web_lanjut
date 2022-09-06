@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ArticleController extends Controller
+class PageController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,19 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        //
+        return 'Selamat Datang';
+    }
+
+    public function about()
+    {
+        return 'NIM: 1931710129 <br>
+                Nama: Almira Rahma Sabita <br>
+                Kelas: TSA WEB B';
+    }
+
+    public function articles($id)
+    {
+        return 'ini halaman artikel ' . $id;
     }
 
     /**
@@ -45,7 +57,7 @@ class ArticleController extends Controller
      */
     public function show($id)
     {
-        return 'ini halaman artikel ' . $id;
+        //
     }
 
     /**

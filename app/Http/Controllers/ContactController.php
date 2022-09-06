@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ArticleController extends Controller
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,8 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        //
+        return '<a href = "https://www.educastudio.com/contact-us">
+        https://www.educastudio.com/contact-us';
     }
 
     /**
@@ -23,7 +24,8 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        //
+        return '<a href = "https://www.educastudio.com/contact-us">
+        https://www.educastudio.com/contact-us';
     }
 
     /**
@@ -34,7 +36,8 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return '<a href = "https://www.educastudio.com/contact-us">
+        https://www.educastudio.com/contact-us';
     }
 
     /**
@@ -45,7 +48,8 @@ class ArticleController extends Controller
      */
     public function show($id)
     {
-        return 'ini halaman artikel ' . $id;
+        return '<a href = "https://www.educastudio.com/contact-us">
+        https://www.educastudio.com/contact-us';
     }
 
     /**
@@ -56,7 +60,8 @@ class ArticleController extends Controller
      */
     public function edit($id)
     {
-        //
+        return '<a href = "https://www.educastudio.com/contact-us">
+        https://www.educastudio.com/contact-us';
     }
 
     /**
@@ -68,7 +73,8 @@ class ArticleController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        return '<a href = "https://www.educastudio.com/contact-us">
+        https://www.educastudio.com/contact-us';
     }
 
     /**
@@ -79,6 +85,7 @@ class ArticleController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return '<a href = "https://www.educastudio.com/contact-us">
+        https://www.educastudio.com/contact-us';
     }
 }
